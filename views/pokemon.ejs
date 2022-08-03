@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="typed-out">
+                O que é Pokemon?
+            </div>
+        </div>
+        <div class="text">
+            <%= oquepokemon %> <span class="vermelho">
+                    <%= vermelho %>
+                </span>
+                <%= oqepokemon2 %>
+        </div>
+        <div class="container">
+            <div class="typed-out">
+                O que é o tipo do Pokémon?
+            </div>
+        </div>
+        <div class="text">
+            <%= tipo1 %> <br>
+                <%= tipo2 %> <br>
+                    <%= tipo3 %> <br>
+                        <%= tipo4 %>
+        </div>
+        <div class="tipos">
+            <table class="table" id="margin">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"> Símbolo</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Tradução</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"> <img
+                                src="https://1.bp.blogspot.com/-BtSgzxBk5_w/YBsQTh_EheI/AAAAAAAAsBc/C84X453AW9YUVM3F6HTSRyfd0DUNGa5qwCLcBGAsYHQ/s20/GO_Bug.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.bug %>
+                        </td>
+                        <td>
+                            <%= tipos.inseto %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-_cThXEq71Ss/YBsQTvc7TFI/AAAAAAAAsBg/lc7wrqx1UAAt_qbGydqBs3O-gxVXhPyVgCLcBGAsYHQ/s20/GO_Dark.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.dark %>
+                        </td>
+                        <td>
+                            <%= tipos.sombrio %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-3cXS0z749gA/YBsQTijxT5I/AAAAAAAAsBk/JUzSVT9AO4EynsdOq4_CZl044uwoL0s4ACLcBGAsYHQ/s20/GO_Dragon.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.dragon %>
+                        </td>
+                        <td>
+                            <%= tipos.dragao %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> <img
+                                src="https://1.bp.blogspot.com/-n_ROwkZv-f4/YBsQURu0OCI/AAAAAAAAsBo/v6_80nw3UGcyHTLK_Yu_tde2xGXP3pWlQCLcBGAsYHQ/s20/GO_Electric.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.electric %>
+                        </td>
+                        <td>
+                            <%= tipos.eletrico %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-Oo205G1b3Qo/YBsQUUbYOOI/AAAAAAAAsBs/douwL2OWPvMv-0qCbwqOKgFmQ9fsoxlLQCLcBGAsYHQ/s20/GO_Fairy.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.fairy %>
+                        </td>
+                        <td>
+                            <%= tipos.fada %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-_0WO-3ba2PI/YBsQUrMyl6I/AAAAAAAAsBw/t1tjjJsvb304PxUJGPH0vmPFdUyuqv8tACLcBGAsYHQ/s20/GO_Fighting.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.fighting %>
+                        </td>
+                        <td>
+                            <%= tipos.lutador %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-zCIyUFTjdgE/YBsQUw5cRII/AAAAAAAAsB0/wbsWTRsbWlokpFDwWrY_c14Rii43kByWACLcBGAsYHQ/s20/GO_Fire.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.fire %>
+                        </td>
+                        <td>
+                            <%= tipos.fogo %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-JUhKrpq3Hjk/YBsQU5uNImI/AAAAAAAAsB4/fzmPD3bVcnYuNaACbqcYcVdjy_eT2GhXwCLcBGAsYHQ/s20/GO_Flying.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.fly %>
+                        </td>
+                        <td>
+                            <%= tipos.voador %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-5_3AXik_qNk/YBsQVBpAXtI/AAAAAAAAsB8/06k-B7LI-AY1KlJUymBrCfo6N55N4H-KACLcBGAsYHQ/s20/GO_Ghost.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.gost %>
+                        </td>
+                        <td>
+                            <%= tipos.fantasma %>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"> Símbolo</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Tradução</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"> <img
+                                src="https://1.bp.blogspot.com/-pZSTY06dKwU/YBsQVkBQBoI/AAAAAAAAsCA/VM5Ccp2O2F8FqAnO09fl-bJ1qFTm75txgCLcBGAsYHQ/s20/GO_Grass.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.grass %>
+                        </td>
+                        <td>
+                            <%= tipos.grama %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-n2i3LPtPblE/YBsQVveh7MI/AAAAAAAAsCE/RzGuS7ve0IcnU8aVpkK95QQ5msFpkppqwCLcBGAsYHQ/s20/GO_Ground.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.ground %>
+                        </td>
+                        <td>
+                            <%= tipos.chao %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-3o0tZnL_cRQ/YBsQVy60fKI/AAAAAAAAsCI/2A2KXqE95aAznaSzhO-mmy0F8E-Kw_lgwCLcBGAsYHQ/s20/GO_Ice.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.ice %>
+                        </td>
+                        <td>
+                            <%= tipos.gelo %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> <img
+                                src="https://1.bp.blogspot.com/-L-ZsxQngxLc/YBsQWOk89WI/AAAAAAAAsCM/y2A83Y_dezkoau-SkrjJV0_tC76qz82WwCLcBGAsYHQ/s20/GO_Normal.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.normal %>
+                        </td>
+                        <td>
+                            <%= types.normal %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-ZE4Zql1J55s/YBsQWPTK5vI/AAAAAAAAsCQ/C900Z9sZ1AkrxaEz3y2jNX3yJivyft7JQCLcBGAsYHQ/s20/GO_Poison.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.poison %>
+                        </td>
+                        <td>
+                            <%= tipos.veneno %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-NKxsCQIl2aw/YBsQWdiqdlI/AAAAAAAAsCU/r6jDf5gaTzAhMPpNxEuYegw4D7rS8H0CgCLcBGAsYHQ/s20/GO_Psychic.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.Psychic %>
+                        </td>
+                        <td>
+                            <%= tipos.psi %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/--mlKlB1CQww/YBsQW-XvPRI/AAAAAAAAsCY/QWsfnRfNbi0pC1CoPVUeMy2Vxp-EMLiXwCLcBGAsYHQ/s20/GO_Rock.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.rock %>
+                        </td>
+                        <td>
+                            <%= tipos.pedra %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-WRZUM8RyH7k/YBsQWxjQWCI/AAAAAAAAsCc/G3x3shnM8UATeS7c1d57KmKWwr2-_TfAwCLcBGAsYHQ/s20/GO_Steel.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.steel %>
+                        </td>
+                        <td>
+                            <%= tipos.aço %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img
+                                src="https://1.bp.blogspot.com/-LxiwLLVOkAk/YBsQW1NqZMI/AAAAAAAAsCg/r2jwg4P3m54QO8OcF1r6jC6Q1WBK3M7mQCLcBGAsYHQ/s20/GO_Water.webp"
+                                alt=""></th>
+                        <td>
+                            <%= types.water %>
+                        </td>
+                        <td>
+                            <%= tipos.agua %>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           
+        </div>
+        <div class="text" id="ultimo">
+            <%= tipo1 %>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

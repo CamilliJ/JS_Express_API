@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+main{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 0, 0);
+    font-size: 35px;
+    width: 0;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 70px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 125%
+    }
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid #ff0000;
+    white-space: nowrap;
+    font-size: 35px;    
+    width: 0;
+    margin-left: -15px;
+    animation: typing 1s forwards;
+}
+
+.text{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.vermelho{
+    color: #ff0000;
+}
+
+
+.tipos{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#margin{
+    margin-right: 50px;
+}
+
+#ultimo{
+    margin-bottom: 60px;
+}
